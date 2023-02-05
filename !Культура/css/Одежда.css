@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav:before {
+    content:"";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background:#a76e25;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.d1 {
+    margin-top: -39px;
+}
+
+.ul1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.ul1 .li1 {
+    float: left;
+    z-index: 8;
+}
+
+.ul1 .li2 a:hover {
+    background:#f1a23b;
+    box-shadow: 0 0 10px #f1a23b, 0 0 40px #f1a23b, 0 0 80px #f1a23b;
+}
+
+.ul1 .li1 a {
+    color:#fff;
+    display: block;
+    height: 50px;
+    padding:0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Montserrat Alternates Light';
+}
+
+.ul1 .li1 a:hover {
+    background:#f1a23b;
+    box-shadow: 0 0 10px #f1a23b, 0 0 40px #f1a23b, 0 0 80px #f1a23b;
+}
+
+.parallax-clothes1 {
+    background: url('../img/belarusian costume.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes1 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes1 {
+    z-index: 3;
+}
+
+.clothes1 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes1_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes1_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.container {
+    position: relative;
+    width:1140px;
+    margin: 0 auto;
+}
+
+a {
+    margin-left: 10px;
+    color:#fff;
+}
+
+.d2 {
+    margin-top: 500px;
+}
+
+.parallax-clothes2 {
+    background: url('../img/belt.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes2 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes2 {
+    z-index: 3;
+}
+
+.clothes2 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes2_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes2_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.parallax-clothes3 {
+    background: url('../img/odejda3.jfif') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes3 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes3 {
+    z-index: 3;
+}
+
+.clothes3 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes3_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes3_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.d3 {
+    margin-top: 539px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background:#a76e25;
+    padding: 39px 0 62px 0;
+}
+
+.footer_contact {
+    font-family: 'Montserrat Alternates Light';
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.banners {
+    display: flex;
+    width: 100%;
+}
+
+.banners img {
+	display: inline-block;
+	height: 60px;
+	margin-right: -5px;
+}
+
+.banners1 {
+    margin-left: 35%;
+    margin-top: -12%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.banners2 {
+    margin-top: -5%;
+    margin-left: -37.6%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.my_contact {
+    margin-top: -15%;
+    margin-left: 83%;
+    border-radius: 20px; 
+    display: inline-block;
+    
+}
+
+.my_contact .text {
+    font-family: 'Montserrat Alternates Light';
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.c1 {
+    display: flex;
+}
+
+.my_contact img {
+    transition: all 0.2s ease;
+}
+
+.my_contact .vk:hover img {
+    opacity: 0;
+}
+
+.my_contact .vk:hover {
+    background: url(../img/VK.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #3083f0, 0 0 40px #3083f0, 0 0 80px #3083f0;
+    border-radius: 20px;
+}
+
+.my_contact .viber {
+    margin-left: 10%;
+}
+
+.my_contact .viber:hover img {
+    opacity: 0;
+}
+
+.my_contact .viber:hover {
+    background: url(../img/Viber.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #8577dd, 0 0 40px #8577dd, 0 0 80px #8577dd;
+    border-radius: 20px;
+}

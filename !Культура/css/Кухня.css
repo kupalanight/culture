@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav {
+    margin: 0 0;
+    padding: 0;
+}
+
+nav:before {
+    content:"";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background:#a76e25;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    padding: 0;
+}
+
+.d1 {
+    margin-top: -39px;
+}
+
+.ul1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.li {
+    padding: 0 40px;
+}
+
+.ul1 .li1 {
+    float: left;
+    z-index: 8;
+}
+
+.ul1 .li2 a:hover {
+    background:#f1a23b;
+    box-shadow: 0 0 10px #f1a23b, 0 0 40px #f1a23b, 0 0 80px #f1a23b;
+}
+
+.ul1 .li1 a {
+    color:#fff;
+    display: block;
+    height: 50px;
+    padding:0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Montserrat Alternates Light';
+}
+
+.ul1 .li1 a:hover {
+    background:#f1a23b;
+    box-shadow: 0 0 10px #f1a23b, 0 0 40px #f1a23b, 0 0 80px #f1a23b;
+}
+
+.parallax-kitchen1 {
+    background: url('../img/eda.jfif') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-kitchen1 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-kitchen1 {
+    z-index: 3;
+}
+
+.kitchen1 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.kitchen1_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.kitchen1_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.container {
+    position: relative;
+    width:1140px;
+    margin: 0 auto;
+}
+
+a {
+    margin-left: 10px;
+    color:#fff;
+}
+
+.d2 {
+    margin-top: 500px;
+}
+
+.d3 {
+    margin-top: 539px;
+}
+
+.parallax-kitchen2 {
+    background: url('../img/Verashchaka.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-kitchen2 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-kitchen2 {
+    z-index: 3;
+}
+
+.kitchen2 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.kitchen2_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.kitchen2_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.parallax-kitchen3 {
+    background: url('../img/kitchen3.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-kitchen3 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-kitchen3 {
+    z-index: 3;
+}
+
+.kitchen3 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.kitchen3_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.kitchen3_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.d4 {
+    margin-top: -100px;
+}
+
+footer {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    height: 200px;
+    background:#a76e25;
+    padding: 39px 0 39px 0;
+}
+
+.footer_contact {
+    
+    margin-right: 1%;
+    font-family: 'Montserrat Alternates Light';
+    font-size: 20px;
+}
+
+.banners {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 40%;
+    height: 40%;   
+}
+
+.banners img {
+	display: inline-block;
+    width: 140px;
+	height: 50px;
+    margin-right: 5px;
+}
+
+.my_contact {
+    border-radius: 20px; 
+    display: inline-block;
+    
+}
+
+.my_contact .text {
+    font-family: 'Montserrat Alternates Light';
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.c1 {
+    display: flex;
+}
+
+.my_contact img {
+    transition: all 0.2s ease;
+}
+
+.my_contact .vk:hover img {
+    opacity: 0;
+}
+
+.my_contact .vk:hover {
+    background: url(../img/VK.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #3083f0, 0 0 40px #3083f0, 0 0 80px #3083f0;
+    border-radius: 20px;
+}
+
+.my_contact .viber {
+    margin-left: 10%;
+}
+
+.my_contact .viber:hover img {
+    opacity: 0;
+}
+
+.my_contact .viber:hover {
+    background: url(../img/Viber.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #8577dd, 0 0 40px #8577dd, 0 0 80px #8577dd;
+    border-radius: 20px;
+}
+
+@media (max-width:1400px){
+    .container{
+        width: auto;
+    }
+    .my_contact .c1 img {
+        width: 50px;
+    }
+    .my_contact .vk:hover {
+        background-size: 108%;
+    }
+    .my_contact .viber:hover {
+        background-size: 108%;
+    }
+    .kitchen1_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .kitchen2_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .kitchen3_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .kitchen1_title{
+        font-size: 40px;
+    }
+    .kitchen2_title{
+        font-size: 40px;
+    }
+    .kitchen3_title{
+        font-size: 40px;
+    }
+}
+@media (max-width:1100px) {
+    .banners img {
+        width: 100px;
+    }
+}
+
+@media (max-width:1100px) {
+    .ul1 .li1 a{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    
+}
+
+@media (max-width:900px) {
+    .banners img {
+        width: 80px;
+    }
+    .ul1 .li1 a{
+        padding: 0 3px;
+        font-size: 15px;
+    }
+    .kitchen1_title{
+        font-size: 30px;
+    }
+    .kitchen2_title{
+        font-size: 30px;
+    }
+    .kitchen3_title{
+        font-size: 35px;
+    }
+    .kitchen1_text {
+        font-size: 25px;
+    }
+    .kitchen2_text {
+        font-size: 25px;
+    }
+    .kitchen3_text {
+        font-size: 25px;
+    }
+}
+@media (max-width:800px){
+    
+}

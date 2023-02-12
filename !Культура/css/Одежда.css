@@ -1,0 +1,561 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    cursor: url(../img/Normal.png), auto;
+}
+
+.a1 {
+    text-decoration: none;
+}
+
+.a1 {
+    background: linear-gradient( to right, transparent, transparent),
+        linear-gradient(to right, #f1a23b, #f1b354, #cfcfcf, #ffffff);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.a1:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #a76e25;
+    z-index: 2;
+}
+
+.header__body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items:center;
+}
+
+.header__list {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    align-items:center;
+    justify-content: center;
+}
+
+.header__list .li1 {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+
+.header__list .li1 a {
+    color:#fff;
+    display: flex;
+    height: 50px;
+    padding:0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Montserrat Alternates Light';
+    align-items:center;
+    justify-content: center;
+}
+
+.header__list .li1 a:hover {
+    background:#f1a23b;
+    box-shadow: 0 0 10px #f1a23b, 0 0 40px #f1a23b, 0 0 80px #f1a23b;
+}
+
+.header__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header__logo {
+    flex: 0 0 60px; 
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.header__logo img {
+    max-width: 100%;
+    
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__menu {
+    top: 0;
+    display: flex;
+}
+
+.header__menu:before {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background:#a76e25;
+    position: absolute;
+    left: 0;
+}
+
+.container1 {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.parallax-clothes1 {
+    background: url('../img/belarusian costume.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes1 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes1 {
+    z-index: 3;
+}
+
+.clothes1 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes1_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes1_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.container {
+    position: relative;
+    width:1140px;
+    margin: 0 auto;
+}
+
+a {
+    margin-left: 10px;
+    color:#fff;
+}
+
+.d2 {
+    margin-top: 500px;
+}
+
+.parallax-clothes2 {
+    background: url('../img/belt.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes2 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes2 {
+    z-index: 3;
+}
+
+.clothes2 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes2_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes2_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.parallax-clothes3 {
+    background: url('../img/odejda3.jfif') center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-clothes3 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.parallax-content-clothes3 {
+    z-index: 3;
+}
+
+.clothes3 {
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+
+.clothes3_title {
+    color:white;
+    font-family: 'Montserrat Alternates Italic', sans-serif;
+    font-size: 50px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.clothes3_text {
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.d3 {
+    margin-top: 539px;
+}
+
+footer {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    height: 200px;
+    background:#a76e25;
+    padding: 39px 0 39px 0;
+}
+
+.footer_contact {
+    
+    margin-right: 1%;
+    font-family: 'Montserrat Alternates Light';
+    font-size: 20px;
+}
+
+.banners {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 40%;
+    height: 40%;   
+}
+
+.banners img {
+	display: inline-block;
+    width: 140px;
+	height: 50px;
+    margin-right: 5px;
+}
+
+.my_contact {
+    border-radius: 20px; 
+    display: inline-block;
+    
+}
+
+.my_contact .text {
+    font-family: 'Montserrat Alternates Light';
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.c1 {
+    display: flex;
+}
+
+.my_contact img {
+    transition: all 0.2s ease;
+}
+
+.my_contact .vk:hover img {
+    opacity: 0;
+}
+
+.my_contact .vk:hover {
+    background: url(../img/VK.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #3083f0, 0 0 40px #3083f0, 0 0 80px #3083f0;
+    border-radius: 20px;
+}
+
+.my_contact .viber {
+    margin-left: 10%;
+}
+
+.my_contact .viber:hover img {
+    opacity: 0;
+}
+
+.my_contact .viber:hover {
+    background: url(../img/Viber.png) no-repeat 50% 50%;
+    background-size: 105%;
+    box-shadow: 0 0 10px #8577dd, 0 0 40px #8577dd, 0 0 80px #8577dd;
+    border-radius: 20px;
+}
+
+@media (max-width:1400px){
+    .container{
+        width: auto;
+    }
+    .my_contact .c1 img {
+        width: 50px;
+    }
+    .my_contact .vk:hover {
+        background-size: 108%;
+    }
+    .my_contact .viber:hover {
+        background-size: 108%;
+    }
+    .clothes1_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .clothes2_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .clothes3_text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .clothes1_title{
+        font-size: 40px;
+    }
+    .clothes2_title{
+        font-size: 40px;
+    }
+    .clothes3_title{
+        font-size: 40px;
+    }
+}
+@media (max-width:1100px) {
+    .banners img {
+        width: 100px;
+    }
+}
+
+@media (max-width:1100px) {
+    .ul1 .li1 a{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    
+}
+@media (max-width:950px) {
+    .header__list .li1 a {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    .header__list {
+        margin-right: 80px;
+    }
+}
+@media (max-width:900px) {
+    .banners img {
+        width: 80px;
+    }
+    .ul1 .li1 a{
+        padding: 0 3px;
+        font-size: 15px;
+    }
+    .clothes1_title{
+        font-size: 30px;
+    }
+    .clothes2_title{
+        font-size: 30px;
+    }
+    .clothes3_title{
+        font-size: 35px;
+    }
+    .clothes1_text {
+        font-size: 25px;
+    }
+    .clothes2_text {
+        font-size: 25px;
+    }
+    .clothes3_text {
+        font-size: 25px;
+    }
+}
+@media (max-width:800px){
+    
+}
+@media (max-width:767px) {
+
+    body.lock{
+        overflow: hidden;
+    }
+
+    .header__body {
+        height: 50px;
+    }
+    .header__logo {
+        flex: 0 0 40px;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+        left: 42%;
+    }
+
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before {
+        top: 0;
+    }
+
+    .header__burger:after {
+        bottom: 0;
+    }
+
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        background-color: #f1a23b;
+        padding: 70px 10px 20px 10px;
+    }
+
+    .header__menu.active {
+        top: 0;
+    }
+
+    .header__list {
+        display: block;
+    }
+    .header__list .li1 {
+        margin: 0px 0px 20px 0px;
+        
+    }
+    .header__list .li1 a {
+        font-size: 30px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+    }
+    .header__link {
+        font-size: 40px;
+    }
+}
